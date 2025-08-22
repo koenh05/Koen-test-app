@@ -2,7 +2,7 @@ function sayHello() {
     alert("Hallo! Dit is mijn eerste app 🚀");
 }
 function voegToe() {
-  const input = document.getElementById("product");
+  const input = document.getElementById("bestellingen");
   const lijst = document.getElementById("lijst");
 
   if (input.value.trim() === "") return;
